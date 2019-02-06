@@ -1,0 +1,38 @@
+{
+  "name": "premierdiscount",
+  "version": "1.0.0",
+  "description": "online store",
+  "main": "index.js",
+  "scripts": {
+    "test": "tester",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulstandley/premierdiscount.git"
+  },
+  "keywords": [
+    "store"
+  ],
+  "author": "Paul Standley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulstandley/premierdiscount/issues"
+  },
+  "homepage": "https://github.com/paulstandley/premierdiscount#readme",
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.2",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
