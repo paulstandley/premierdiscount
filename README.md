@@ -1,4 +1,4 @@
-# premierdiscount
+# **premierdiscount**
 
 ## Paul Standley
 
@@ -9,6 +9,7 @@ Dependencies
 ```Bash
 npm install react
 npm install react-dom
+npm install axios
 ```
 
 Dev-Dependencies
@@ -26,6 +27,8 @@ npm install --save-dev html-webpack-plugin
 
 or
 
-```bash
-npm i --save-dev webpack webpack-dev-server webpack-cli babel-core babel-loader babel-preset-env babel-preset-react html-webpack-plugin
+```Bash
+npm i --save-dev webpack webpack-dev-server webpack-cli 
+babel-core babel-loader@7 babel-preset-env 
+babel-preset-react html-webpack-plugin
 ```
