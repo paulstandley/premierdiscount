@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { ProuductConsumer } from './context';
+import { Link } from 'react-router-dom';
+import Header from './components/Header';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +11,14 @@ class App extends Component {
   }
   render() { 
     return ( 
-      <h1>App</h1>
+      <React.Fragment>
+        <Header />
+        <ProuductConsumer>
+        {value => {
+          return (<h1>{value}</h1>);
+        }}
+        </ProuductConsumer>
+      </React.Fragment>
      );
   }
 }
