@@ -1,3 +1,9 @@
+# __Premierdiscount__
+
+![Profile Pick](http://res.cloudinary.com/pieol2/image/upload/v1516543296/profile-small.png)
+
+## by _**PAUL STANDLEY**_
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
