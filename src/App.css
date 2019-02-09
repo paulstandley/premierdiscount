@@ -1,5 +1,15 @@
+:root {
+  --bodybgcolor: aliceblue;
+  --mainheadercolor: lightblue;
+  --mainfontscolor: darkblue;  
+}
+
+body {
+  background: var(--bodybgcolor);
+}
+
 h1 {
   text-align: center;
-  color: blue;
-  background-color: aliceblue;
+  color: var(--mainfontscolor);
+  background-color: var(--mainheadercolor);
 }
