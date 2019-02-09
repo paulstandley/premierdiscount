@@ -6,7 +6,7 @@ class ProuductProvider extends Component {
 
   render() { 
     return ( 
-      <ProuductContext.Provider value="hello for context">
+      <ProuductContext.Provider value="hello for contextprovider">
         {this.props.children}
       </ProuductContext.Provider>
      );
