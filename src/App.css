@@ -1,15 +1,24 @@
 :root {
   --bodybgcolor: aliceblue;
   --mainheadercolor: lightblue;
-  --mainfontscolor: darkblue;  
+  --mainfontscolor: darkblue; 
+  --mainlist: none; 
+}
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
   background: var(--bodybgcolor);
 }
 
-h1 {
-  text-align: center;
-  color: var(--mainfontscolor);
-  background-color: var(--mainheadercolor);
+header ol li {
+  list-style-type: var(--mainlist);
+}
+
+header ol {
+  display: flex;
+  justify-content: space-around;
 }

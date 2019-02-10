@@ -8,10 +8,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ---
 
-## devolpment dep
+## devolopment dep
 
 ```BASH
 npm install --save-dev react-router-dom
+npm install --svae-dev styled-components
 ```
 
 ---
