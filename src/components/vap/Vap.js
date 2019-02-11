@@ -5,7 +5,7 @@ class Vap extends Component {
   render() { 
     return ( 
       <React.Fragment>
-        Vap
+        <h1>Vap</h1>
       </React.Fragment>
      );
   }

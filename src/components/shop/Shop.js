@@ -5,7 +5,7 @@ class Shop extends Component {
   render() { 
     return ( 
       <React.Fragment>
-        shop
+        <h1>shop</h1>
       </React.Fragment>
      );
   }

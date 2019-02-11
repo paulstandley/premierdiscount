@@ -14,12 +14,12 @@ class App extends Component {
   }
   render() { 
     return ( 
-      <React.Fragment>
+      <React.Fragment> 
         <Header />
         <Switch>
-          <Route exact path="/vap/Vap" Component={Vap} />
-          <Route exact path="/sunderys/Sunderys" Component={Sunderys} />
-          <Route exact path="/shop/Shop" Component={Shop} />
+          <Route path="components/vap" component={Vap} />
+          <Route path="components/sunderys" component={Sunderys} />
+          <Route path="components/shop" component={Shop} />
         </Switch>
       </React.Fragment>
      );
