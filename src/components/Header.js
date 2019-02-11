@@ -14,9 +14,9 @@ class Header extends React.Component {
           <h1>Premeierdiscount</h1>
           <nav>
             <ol>
-              <Link to ="/vap/Vap"><Button><li>vap store</li></Button></Link>
-              <Link to ="/shop/Shop"><Button><li>shop store</li></Button></Link>
-              <Link to ="/sunderys/Sunderys"><Button><li>suderys</li></Button></Link>
+              <Link to ="components/vap"><Button><li>vap store</li></Button></Link>
+              <Link to ="components/shop"><Button><li>shop store</li></Button></Link>
+              <Link to ="components/sunderys"><Button><li>suderys</li></Button></Link>
             </ol>
           </nav>
         </Headers>
