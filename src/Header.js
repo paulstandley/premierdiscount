@@ -30,6 +30,10 @@ const Headers = styled.header`
   text-align: center;
   color: var(--mainfontscolor);
   background-color: var(--mainheadercolor);
+  h1 {
+    padding: 0 0 0.4rem 0;
+    font-size: 2.2rem;
+  }
 `
 
 const Button = styled.button`
@@ -37,8 +41,15 @@ const Button = styled.button`
   border-radius: 9px;
   border: 2px solid var(--mainfontscolor);
   color: var(--mainfontscolor);
-  margin: 0 1rem;
-  padding: 0.25rem 1rem;
+  padding: 0.5rem 4rem;
+  &:hover {
+    background-color: var(--mainfontscolor);
+    color: var(--bodybgcolor);
+    border: 2px solid var(--bodybgcolor);
+  }
+  &:focus {
+    outline: none;
+  }
 `
 
 export default Header;
