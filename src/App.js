@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ProuductConsumer } from './context';
 import { Switch, Route } from 'react-router-dom';
-import Header from './components/Header';
+import Header from './Header';
 import Shop from './components/shop/Shop';
 import Sunderys from './components/sunderys/Sunderys';
 import Vap from './components/vap/Vap';
@@ -17,9 +17,9 @@ class App extends Component {
       <React.Fragment> 
         <Header />
         <Switch>
-          <Route path="components/vap" component={Vap} />
-          <Route path="components/sunderys" component={Sunderys} />
-          <Route path="components/shop" component={Shop} />
+          <Route path="/components/vap/Vap" component={Vap} />
+          <Route path="/components/sunderys/Sunderys" component={Sunderys} />
+          <Route path="/components/shop/Shop" component={Shop} />
         </Switch>
       </React.Fragment>
      );

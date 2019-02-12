@@ -14,9 +14,9 @@ class Header extends React.Component {
           <h1>Premeierdiscount</h1>
           <nav>
             <ol>
-              <Link to ="components/vap"><Button><li>vap store</li></Button></Link>
-              <Link to ="components/shop"><Button><li>shop store</li></Button></Link>
-              <Link to ="components/sunderys"><Button><li>suderys</li></Button></Link>
+              <Link to ="components/vap/Vap"><Button><li>vap store</li></Button></Link>
+              <Link to ="components/shop/Shop"><Button><li>shop store</li></Button></Link>
+              <Link to ="components/sunderys/Sunderys"><Button><li>suderys</li></Button></Link>
             </ol>
           </nav>
         </Headers>
@@ -26,7 +26,7 @@ class Header extends React.Component {
 }
 
 const Headers = styled.header`
-  padding: 0.8rem;
+  padding: 1rem 0.8rem;
   text-align: center;
   color: var(--mainfontscolor);
   background-color: var(--mainheadercolor);
