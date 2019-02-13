@@ -20,6 +20,10 @@ class ProuductProvider extends Component {
     })
   }
 
+  buttonHandeler = () => {
+    console.log("button clicked");
+  }
+
   render() { 
     return ( 
       <ProuductContext.Provider value={{
@@ -30,10 +34,6 @@ class ProuductProvider extends Component {
       </ProuductContext.Provider>
      );
   }
-  buttonHandeler = () => {
-    console.log("button clicked");
-  }
-
 }
 
 const ProuductConsumer = ProuductContext.Consumer;
