@@ -5,7 +5,8 @@ const ProuductContext = React.createContext();
 class ProuductProvider extends Component {
 
   state = {
-    prouduct: []
+    prouduct: [],
+    buttons: false
   }
 
   componentDidMount() {
@@ -14,8 +15,8 @@ class ProuductProvider extends Component {
     .then(response => response.json())
     .then(json => {
       console.log(json);
-      return this.setState({
-        prouduct: json
+      return this.setState(() => {
+        return { prouduct: json };
       })
     })
   }

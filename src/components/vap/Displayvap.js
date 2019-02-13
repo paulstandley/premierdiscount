@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Vappicks from './Vappicks';
 
 class Displayvap extends Component {
   state = {  }
@@ -6,8 +7,7 @@ class Displayvap extends Component {
     console.log(this.props);
     return ( 
       <React.Fragment>
-        {this.props.length !== 0 ? <h3>no data</h3> : <h3>data</h3>}
-        <p>vap picks</p>
+        {this.props.length === 0 ? <h3>no data</h3> : <Vappicks />}
       </React.Fragment>
      );
   }

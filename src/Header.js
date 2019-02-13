@@ -34,6 +34,13 @@ const Headers = styled.header`
     padding: 0 0 0.4rem 0;
     font-size: 2.2rem;
   }
+  ol {
+    display: flex;
+    justify-content: space-around;
+  }
+  ol li {
+    list-style-type: var(--mainlist);
+  }
 `
 
 const Button = styled.button`
@@ -42,6 +49,8 @@ const Button = styled.button`
   border: 2px solid var(--mainfontscolor);
   color: var(--mainfontscolor);
   padding: 0.5rem 4rem;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
   &:hover {
     background-color: var(--mainfontscolor);
     color: var(--bodybgcolor);

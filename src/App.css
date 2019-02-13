@@ -2,7 +2,10 @@
   --bodybgcolor: aliceblue;
   --mainheadercolor: lightblue;
   --mainfontscolor: darkblue; 
-  --mainlist: none; 
+  --mainlist: none;
+  --mainYellow: rgba(255, 255, 0, 0.747);
+  --lightBlue: rgba(68, 189, 230, 0.87);
+  --mainvapbgcolor: rgba(95, 158, 160, 0.147); 
 }
 
 * {
@@ -12,13 +15,4 @@
 
 body {
   background: var(--bodybgcolor);
-}
-
-header ol li {
-  list-style-type: var(--mainlist);
-}
-
-header ol {
-  display: flex;
-  justify-content: space-around;
 }
