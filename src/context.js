@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+import { Get } from 'react-axios';
 
 const ProuductContext = React.createContext();
 
@@ -11,14 +13,14 @@ class ProuductProvider extends Component {
 
   componentDidMount() {
 
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then(response => response.json())
-    .then(json => {
-      console.log(json);
-      return this.setState(() => {
-        return { prouduct: json };
-      })
-    })
+  axios.get('https://jsonplaceholder.typicode.com/users')
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+
   }
 
   buttonHandeler = () => {

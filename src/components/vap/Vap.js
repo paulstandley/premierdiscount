@@ -6,7 +6,7 @@ import { Buttons } from '../Buttons';
 
 class Vap extends Component {
   state = { 
-    isclicked: false
+    isclicked: true
    }
   render() { 
     return ( 

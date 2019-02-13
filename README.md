@@ -8,7 +8,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ---
 
-## devolopment dep
+## dep
+
+```BASH
+npm install axios
+npm install react-axios
+```
+
+## dev dep
 
 ```BASH
 npm install --save-dev react-router-dom
