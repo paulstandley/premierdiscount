@@ -8,6 +8,7 @@ class ProuductProvider extends Component {
 
   state = {
     prouduct: [],
+    picks: [],
     buttons: false
   }
 
