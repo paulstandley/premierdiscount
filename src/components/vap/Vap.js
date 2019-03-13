@@ -22,6 +22,15 @@ class Vap extends Component {
                 disabled={this.state.isclicked ? true : false}
                 >Click</Buttons>
                 {this.state.isclicked ? 'true' : 'false'}
+                {value.prouduct.map(current => {
+                  return (
+                    <div key={current.id}>
+                      <h4>{current.name}</h4>
+                      <h4>{current.username}</h4>
+                      <h4>{current.email}</h4>
+                    </div>
+                  );
+                })}
               <Displayvap />
             </Section>
             );

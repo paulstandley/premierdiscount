@@ -12,14 +12,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ```BASH
 npm install axios
-npm install react-axios
+npm install firebaseui --save
 ```
 
 ## dev dep
 
 ```BASH
 npm install --save-dev react-router-dom
-npm install --svae-dev styled-components
+npm install --save-dev styled-components
 ```
 
 ---
